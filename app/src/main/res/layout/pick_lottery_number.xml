@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5AE3F2">
+
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="50sp"
+        android:layout_height="70sp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="143dp"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/confirm"
+        app:layout_constraintEnd_toStartOf="@+id/number4"
+        app:layout_constraintStart_toEndOf="@+id/number2"
+        app:layout_constraintTop_toTopOf="@+id/number2" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="50sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/number5"
+        app:layout_constraintEnd_toStartOf="@+id/number2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="50sp"
+        android:layout_height="70sp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/number5"
+        app:layout_constraintEnd_toStartOf="@+id/number3"
+        app:layout_constraintStart_toEndOf="@+id/number1"
+        app:layout_constraintTop_toTopOf="@+id/number1"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <EditText
+        android:id="@+id/number5"
+        android:layout_width="50sp"
+        android:layout_height="70sp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:textSize="50sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/number4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/number4" />
+
+    <EditText
+        android:id="@+id/number4"
+        android:layout_width="50sp"
+        android:layout_height="70sp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/number3"
+        app:layout_constraintEnd_toStartOf="@+id/number5"
+        app:layout_constraintStart_toEndOf="@+id/number3"
+        app:layout_constraintTop_toTopOf="@+id/number3" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="193dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number3" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="361dp"
+        android:layout_height="70sp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="113dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pick Any 5 Lottery numbers of your choice"
+        app:layout_constraintBottom_toTopOf="@+id/number1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

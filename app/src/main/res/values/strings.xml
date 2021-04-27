@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GetLucky</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email Address</string>
+    <string name="submit">Submit</string>
+    <string name="get_details">Provide Details</string>
+    <string name="homepage">Select one of the Options</string>
+    <string name="winning_amount">Winning Amount : </string>
+    <string name="timespan">Time Duration : </string>
+    <string name="confirm_purchase">Confirm Purchase</string>
+    <string name="User_name">User\'s Name</string>
+    <string name="player_information">Player Information</string>
+    <string name="yourticketnumber">Your Ticket Number : </string>
+    <string name="winning_lottery">WINNING LOTTERY</string>
+    <string name="play_again">Play Again</string>
+
+</resources>
